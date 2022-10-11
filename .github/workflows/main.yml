@@ -29,7 +29,7 @@ jobs:
           # Your normal build workflow targets here.
           cargo build --release
 
-          cp target/release/target_binary .
+          cp target/release/slsa-gh-action-rs .
 
       # Generate the subject.
       - name: Generate subject
